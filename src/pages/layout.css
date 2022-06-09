@@ -1,0 +1,21 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-right: 1rem; */
+    color : black;
+}
+
+ul li{
+    text-decoration: none;
+    list-style:none;
+    margin-left: 1rem;
+    color : black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    color : black;
+}

@@ -1,0 +1,23 @@
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* table, th, td {
+    border: 1px solid black;
+  } */
+
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+  }
+  
+  th,td {
+    border: 1px solid lightgray;
+    padding:15px 40px;
+    text-align: center;
+  }
