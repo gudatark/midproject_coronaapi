@@ -1,4 +1,4 @@
-import React, { useState ,setData  } from "react";
+import React, { useState   } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import axios from "axios";
@@ -7,7 +7,7 @@ import "./enterens.css";
 const Enterens = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [data, setData] = useState("");
+    // const [data, setData] = useState("");
     const [log, setLog] = useState(false);
   
     function validateForm() {
