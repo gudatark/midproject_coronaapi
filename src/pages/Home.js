@@ -16,7 +16,7 @@ const Home = () => {
         <br></br>
         Those at higher risk include older adults and people with serious medical problems, such as heart, lung, or kidney disease, diabetes, cancer, or a weak immune system. Serious illness may include life-threatening pneumonia and organ failure. Research is being done to treat COVID-19 and to prevent infection with SARS-CoV-2. Also called coronavirus disease 19.
         </p>
-        <img src={covidImg}/>
+        <img src={covidImg} alt="worng"/>
            </div>
     )};
   
